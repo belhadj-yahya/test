@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td,tr,tr th{
+    padding: 10px 40px 10px 40px;
+    border: 1px solid black;
+}
+.g{
+    background-color: transparent;
+    backdrop-filter: blur(7px); /*MAKE BLURE EFFECTS*/
+    height: 80vh;
+    width: clamp(60%, 600px, 70%);
+}
+/*scoudo elemnts
+has() will selecet the only button that has a svg child in it
+*/
+/*
+button:has(img){
+style here
+
+}
+*/
+
